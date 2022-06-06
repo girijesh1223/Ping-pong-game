@@ -1,0 +1,66 @@
+html, body{
+	 height: 100%;
+     margin: 0;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("backg.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container{
+	position: relative;
+}
+
+#ball{
+	width: 40px;
+	height: 40px;
+	outline-style: solid;
+	outline-color: white;
+	outline-width: 2px;
+	background-color: black;
+	position: fixed;
+	top: 55px;
+	bottom: 55px;
+	left: 52%;
+	border-radius: 50%;
+}
+
+#rod1, #rod2{
+	width: 230px;
+	height: 40px;
+	position: fixed;
+	left: 50%;
+	border-radius: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+#rod1{
+	background-color: blueviolet;
+	top: 5px;
+	outline-style: solid;
+	outline-color: white ;
+}
+
+#rod2{
+	background-color: green;
+	bottom: 5px;
+	outline-style: solid;
+	outline-color: white ;
+}
